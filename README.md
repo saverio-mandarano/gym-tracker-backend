@@ -2,19 +2,13 @@
 
 ## 📖 Perché nasce
 
-Quando mi alleno in palestra annoto tutto nell'app Note dell'iPhone: sessioni, esercizi, peso sollevato, numero di serie
-e di ripetizioni, tempo di recupero, ecc...
+Quando mi alleno in palestra annoto tutto nell'app Note dell'iPhone, dalle sessioni agli esercizi, con peso sollevato, numero di serie e ripetizioni e tempo di recupero.
 
-Funziona, ma ha diversi limiti. Rompendo il telefono perderei le note, non posso confrontare facilmente un allenamento
-con quello della settimana
-prima, non vedo se sto progredendo su un esercizio e, dopo qualche mese, lo storico diventa una lunga lista di testo
-difficile da consultare.
+Funziona, ma ha diversi limiti. Se il telefono si rompesse perderei tutte le note, non riesco a confrontare facilmente un allenamento con quello della settimana precedente e non ho modo di capire se sto progredendo su un esercizio. Dopo qualche mese, poi, lo storico diventa una lunga lista di testo difficile da consultare.
 
-Non avendo trovato un gym tracker gratuito che rispecchiasse quello che stavo cercando, da qui l'idea di sviluppare
-un'app che mantiene la stessa semplicità delle note, ma salva i dati in modo
-strutturato, così da poterli riutilizzare per capire come sto andando.
+Non avendo trovato un gym tracker gratuito che rispecchiasse il mio modo di allenarmi, ho deciso di svilupparne uno. L'idea è mantenere la stessa semplicità delle note, salvando però i dati in modo strutturato, così da poterli riutilizzare per seguire i miei progressi nel tempo.
 
-È anche un progetto di studio per mettere in pratica Java/Spring Boot e Angular dall'inizio alla fine.
+È anche un progetto di studio, con cui voglio mettere in pratica Java, Spring Boot e Angular dall'inizio alla fine.
 
 ## 🛠️ Tecnologie
 
@@ -26,15 +20,10 @@ Il front-end è un progetto separato sviluppato in **Angular**.
 
 ## ✅ Cosa fa oggi
 
-Il back-end espone un'API REST che permette di creare, leggere, modificare ed eliminare gli allenamenti. Ogni
-allenamento contiene i suoi esercizi, e ogni esercizio le serie eseguite con relativo numero di ripetizioni e di peso
-utilizzato. I dati in ingresso vengono validati prima di
-essere salvati.
+Il back-end espone un'API REST che permette di creare, leggere, modificare ed eliminare gli allenamenti. Ogni allenamento contiene i propri esercizi, e per ogni esercizio vengono salvate le serie eseguite con il numero di ripetizioni e il peso utilizzato. Prima del salvataggio, i dati in ingresso vengono validati.
 
-Per ora i dati sono conservati in memoria, il database verrà collegato in seguito.
+Per ora i dati sono conservati in memoria, mentre il collegamento a un database arriverà in una fase successiva.
 
 ## 🎯 Obiettivi
 
-L'obiettivo finale è avere uno strumento che, oltre a registrare gli allenamenti, mi aiuti a **migliorare**: capire
-quando aumentare il carico, vedere i progressi su ogni esercizio e controllare quanto volume dedico a ogni gruppo
-muscolare.
+L'obiettivo finale è avere uno strumento che, oltre a registrare gli allenamenti, mi aiuti a migliorare. Voglio poter capire quando è il momento di aumentare il carico, vedere i progressi su ogni esercizio e controllare quanto volume dedico a ciascun gruppo muscolare.
