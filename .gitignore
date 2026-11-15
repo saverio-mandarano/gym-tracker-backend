@@ -1,0 +1,19 @@
+# Maven: file compilati, si rigenerano a ogni build
+target/
+
+# IntelliJ: impostazioni personali dell'IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Log
+*.log
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File con dati sensibili (password, chiavi)
+.env
